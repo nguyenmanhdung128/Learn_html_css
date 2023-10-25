@@ -1,0 +1,58 @@
+body {
+  background-color: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+.container .item{
+  padding: 10px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+/* .container .item .text{
+  width: 80%;
+  height: 50%;
+} */
+
+#item1{
+  color: white;
+  width: 100px;
+  background-image: linear-gradient(45deg, rgba(165,42,42,0.5), rgba(0,0,255,0.5)), url(https://vnreview.vn/image/17/91/25/1791259.jpg);
+  background-size: 170%;
+  background-repeat: no-repeat;
+  height: 30%;
+}
+
+#item2{
+  background-color: aquamarine;
+  background-image: linear-gradient(45deg, rgb(127,255,212), #333); 
+  background-size: 100% 100%;
+  height: 80%;
+}
+
+#item3{
+  background-color: rgba(222,184,135,0.4);
+  height: 40%;
+}
+
+#item4{
+  background-color: rgba(173,255,47,0.5);
+  height: 70%;
+}

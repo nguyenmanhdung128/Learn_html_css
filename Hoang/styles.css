@@ -1,0 +1,135 @@
+.info-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    width: 30%;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.right {
+    width: 68%;
+    padding: 0 20px;
+    border-radius: 16px;
+    border: 1px solid #ebeef5;
+    margin-left: 10px;
+}
+
+.left-first {
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid #ebeef5;
+    background-color: #fff;
+    color: #303133;
+}
+
+.left-second {
+    margin-top: 16px;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid #ebeef5;
+    background-color: #fff;
+    color: #303133;
+    margin-left: 15px;
+
+}
+.table {
+    margin-top: 10px;
+    width:auto;
+    height: 4%;
+    border-bottom: #303133 ;
+    margin-bottom: 0%;
+}
+
+th, td {
+    width: 20%;
+    height: 15%;
+    border: 1px solid rgb(137, 136, 136); 
+    text-decoration: none;
+    font-size: 17px;
+}
+.table-header {
+    padding-right: 50px;
+    text-decoration: none;
+    text-align: left;
+    width: auto;
+
+}
+
+.ly-lich{
+    color: red;
+}
+.left-first-header {
+    box-sizing: border-box;
+    border-bottom: white !important;
+    position: relative;
+    height: 220px;
+}
+
+.left-first-header > img {
+    height: 100%;
+    width: auto;
+}
+
+.left-first-body {
+    margin-top: 100px;
+    height: 180px;
+}
+
+.left-first-body > div {
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.avatar {
+    position: absolute;
+    top: 180px;
+    left: 40px;
+}
+
+.avatar > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.left-first-body{
+    margin-left: 15px;
+}
+.left-second-text{
+    border: 0;
+    margin-left: 15px;
+}
+.second-in4{
+    margin-left: 20%;
+}
+.third-in4{
+    margin-left: 20%;
+}
+.in4{
+    margin-bottom: 15px;
+}
+.table-header-text{
+    text-decoration: none;
+    text-align: right;
+}
+h1{
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+h2{
+    font-size: larger;
+}
+.cuoicung{
+    font-weight: bold;
+    font-size: larger;
+}
+.saucung{
+    margin-left: 40%;
+}

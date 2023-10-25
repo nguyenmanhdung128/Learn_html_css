@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+}
+
+.frame-header {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #c02135;
+    padding: 0px 20px;
+}
+
+.frame-header .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.frame-header .header .logoCtsv {
+    display: flex;
+}
+
+.frame-header .header .logoCtsv .logoCtsv-img{
+    margin: 0px 10px;
+}
+
+.frame-header .header .logoCtsv .logoCtsv-text{
+    margin: 10px 0px;
+    color: white;
+}
+
+
+.frame-header .sidebar ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+}
+
+.frame-header .sidebar ul li{
+    width: auto;
+    padding-right: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+/* ............................... */
+
+.info-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    width: 30%;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+
+.left-first {
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid #ebeef5;
+    background-color: #fff;
+    color: #303133;
+}
+
+.left-second {
+    margin-top: 16px;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid #ebeef5;
+    background-color: #fff;
+    color: #303133;
+    margin-left: 15px;
+
+}
+
+.left-second .left-second-text{
+    margin: 10px;
+}
+
+.left-second .left-second-text p{
+    margin: 10px;
+}
+
+/* ............................... */
+
+.right {
+    width: 68%;
+    padding: 0 20px;
+    border-radius: 16px;
+    border: 1px solid #ebeef5;
+    margin-left: 10px;
+}
+
+.right .table {
+    margin-top: 10px;
+    width:auto;
+    height: 4%;
+    border-bottom: #303133 ;
+    margin: 20px;
+}
+
+.right .table th, td {
+    width: 20%;
+    height: 15%;
+    border: 1px solid rgb(137, 136, 136); 
+    text-decoration: none;
+    font-size: 17px;
+    margin: 15px;
+}
+.table-header {
+    padding-right: 50px;
+    text-decoration: none;
+    text-align: left;
+    width: auto;
+
+}
+
+.thongtin{
+   padding: 20px;
+}
+
+.thongtin h,p{
+    margin: 10px;
+}
+
+.ly-lich{
+    color: red;
+}
+.left-first-header {
+    box-sizing: border-box;
+    border-bottom: white !important;
+    position: relative;
+    height: 220px;
+}
+
+.left-first-header > img {
+    height: 100%;
+    width: auto;
+}
+
+.left-first-body {
+    margin-top: 100px;
+    height: 180px;
+}
+
+.left-first-body > div {
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.avatar {
+    position: absolute;
+    top: 180px;
+    left: 40px;
+}
+
+.avatar > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.left-first-body{
+    margin-left: 15px;
+}
+.left-second-text{
+    border: 0;
+    margin-left: 15px;
+}
+.second-in4{
+    margin-left: 20%;
+}
+.third-in4{
+    margin-left: 20%;
+}
+.in4{
+    margin-bottom: 15px;
+}
+.table-header-text{
+    text-decoration: none;
+    text-align: right;
+}
+h1{
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+h2{
+    font-size: larger;
+}
+.cuoicung{
+    font-weight: bold;
+    font-size: larger;
+}
+.saucung{
+    margin-left: 40%;
+}
